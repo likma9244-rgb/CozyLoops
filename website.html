@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CozyLoops Crochet</title>
+  <link rel="stylesheet" href="website.css">
+</head>
+<body class="page-load">
+
+<nav>
+  <h2>🧶 CozyLoops</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="home" class="hero">
+  <h1>Handmade Crochet with Love</h1>
+  <p>Cozy, cute, and customizable crochet items</p>
+  <a href="#products" class="hero-btn">Shop Now</a>
+</section>
+
+<section id="products">
+  <h2 class="section-title">Our Products</h2>
+
+  <div class="controls">
+    <input type="text" id="searchBar" placeholder="Search crochet items...">
+    <select id="categoryFilter">
+      <option value="all">All</option>
+      <option value="bags">Bags</option>
+      <option value="toys">Toys</option>
+      <option value="accessories">Accessories</option>
+    </select>
+  </div>
+
+  <div id="productList"></div>
+
+  <div class="pagination">
+    <button id="prevPage">Previous</button>
+    <span id="pageInfo"></span>
+    <button id="nextPage">Next</button>
+  </div>
+
+  <div class="cart">
+    <h3>🛒 Cart (<span id="cartCount">0</span>)</h3>
+    <ul id="cartItems"></ul>
+    <p>Total: ₱<span id="total">0</span></p>
+    <button id="checkoutBtn" class="checkout-btn">Checkout</button>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <h2 class="section-title">About CozyLoops</h2>
+  <p>
+     <p>
+      CozyLoops is a small crochet business that focuses on creating handmade items with care,
+      creativity, and dedication. Every product is crocheted by hand, which makes each item unique.
+    </p>
+    <p>
+      The business was created to provide cozy, stylish, and meaningful crochet products such as
+      bags, toys, and accessories. Unlike mass-produced items, each CozyLoops product is crafted
+      slowly with attention to quality and detail.
+    </p>
+    <p>
+      CozyLoops also accepts custom crochet orders. Customers can choose colors, sizes, and styles
+      that match their preferences. This allows every customer to own a crochet piece that feels
+      personal and special.
+    </p>
+    <p>
+      Our goal is to share the warmth of handmade crafts while offering affordable, durable,
+      and beautifully designed crochet products.
+    </p>
+</section>
+
+<section id="contact" class="contact">
+  <h2 class="section-title">Contact Us</h2>
+  <p>📘 Facebook: <a href="https://facebook.com/cozyloops" target="_blank">facebook.com/cozyloops</a></p>
+  <p>📸 Instagram: <a href="https://instagram.com/cozyloops" target="_blank">@cozyloops</a></p>
+  <p>📧 Email: <a href="mailto:cozyloops@gmail.com">cozyloops@gmail.com</a></p>
+  <p>📞 Phone: <a href="tel:+639123456789">+63 912 345 6789</a></p>
+  <p>📍 Address: Manila, Philippines</p>
+</section>
+
+<footer>
+  <p>© 2026 CozyLoops Crochet</p>
+</footer>
+
+<script src="website.js"></script>
+</body>
+</html>
